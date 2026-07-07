@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2026 Noctilucent Season"
+title: "Noctilucent Season"
 date: 2026-06-10
 tags: [clouds, noctilucents]
 ---
