@@ -96,16 +96,3 @@ pre.highlight {
     display: inline-block !important;
   }
 }
-/* Custom Main Post Listing Text Size */
-.archive-item {
-  font-size: 1.5rem; /* Makes the post titles larger. Try 1.8rem or 2rem if you want it bigger! */
-}
-
-.archive-title {
-  font-size: 1.5rem; /* Ensures the clickable title link matches the new size */
-}
-
-.archive-date {
-  font-size: 1rem; /* Keeps the right-aligned date slightly smaller so it stays neat */
-  line-height: 2.25rem; /* Adjusts alignment so the date sits evenly with the larger text */
-}
