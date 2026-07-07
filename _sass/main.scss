@@ -113,3 +113,39 @@ body {
 .archive-date {
   font-size: 0.85rem !important;
 }
+/* --- Universal Typography & Color Styles (Applies to Light Mode by Default) --- */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+  background-color: #002060 !important; /* Rich Navy Blue background */
+  color: #FFFF00 !important;            /* Vibrant Yellow text */
+}
+
+/* Ensure headings match the yellow font in light mode */
+h1, h2, h3, h4, h5, h6, .page-title, .navbar-brand {
+  color: #FFFF00 !important;
+}
+
+/* Style main links and text colors for light mode */
+a, .nav-link, .archive-title {
+  color: #FFEA00 !important;            /* Slightly warmer yellow for links so they pop */
+  text-decoration: underline;
+}
+
+a:hover, .nav-link:hover, .nav-link.active {
+  color: #FFFFFF !important;            /* Turns white on hover so users know it's clickable */
+}
+
+/* Text size rules for the main listing page */
+.archive-item {
+  font-size: 1rem !important; 
+}
+
+.archive-title {
+  font-size: 1rem !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+}
+
+.archive-date {
+  font-size: 0.85rem !important;
+  color: #FFFF00 !important;
+}
