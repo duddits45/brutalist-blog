@@ -95,16 +95,3 @@ pre.highlight {
   .dark-avatar {
     display: inline-block !important;
   }
-  // Custom Sizing to make the Blog Listing text smaller
-.archive-item {
-  font-size: 0.9rem !important; /* Reduces overall line size. Standard is usually 1rem */
-}
-
-.archive-title {
-  font-size: 0.9rem !important; /* Makes the post title link text smaller */
-}
-
-.archive-date {
-  font-size: 0.75rem !important; /* Keeps the right-aligned date proportionately smaller */
-}
-}
