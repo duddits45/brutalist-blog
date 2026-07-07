@@ -96,3 +96,20 @@ pre.highlight {
     display: inline-block !important;
   }
 }
+/* --- Universal Typography Styles (Applies to Light & Dark Mode) --- */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+}
+
+.archive-item {
+  font-size: 1rem !important; 
+}
+
+.archive-title {
+  font-size: 1rem !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+}
+
+.archive-date {
+  font-size: 0.85rem !important;
+}
